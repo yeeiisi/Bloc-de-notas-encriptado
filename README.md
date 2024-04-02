@@ -35,8 +35,21 @@ Este es un simple bloc de notas en Python utilizando la biblioteca Tkinter. El b
 
 ## Requisitos
 
-- Python 3.x
-- Las bibliotecas `cryptography`, `tkinter` y otras mencionadas en el código deben estar instaladas.
+Para ejecutar el Bloc de Notas Encriptado, asegúrate de tener instalado Python 3.x y las siguientes bibliotecas:
+
+- `cryptography`
+- `tkinter`
+
+# Windows
+Puedes instalar estas bibliotecas utilizando `pip`, el administrador de paquetes de Python. Abre una terminal (tecla windows + r, escribir "cmd" y pulsar INTRO) o línea de comandos y ejecuta los siguientes comandos:
+(generalmente tkinter viene instalado con python)
+
+pip install cryptography
+pip install tkinter
+pip install nombre_de_biblioteca
+
+# Si estás en un entorno Linux y no tienes tkinter instalado, ejecuta este comando en una terminal:
+sudo apt-get install python3-tk
 
 ## Notas
 
