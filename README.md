@@ -1,4 +1,49 @@
 # Bloc-de-notas-encriptado
-Un simple bloc de notas usando Python y Tkinter, que encripta las notas al guardarlas por medio de una contraseña que introduce el usuario.
 
+Este es un simple bloc de notas en Python utilizando la biblioteca Tkinter. El bloc de notas tiene la capacidad de encriptar las notas al guardarlas utilizando una contraseña proporcionada por el usuario.
+
+## Funcionalidades
+
+- Encripta las notas al guardarlas mediante una contraseña.
+- Utiliza la biblioteca `cryptography.fernet` y Fernet para el cifrado.
+- Genera una clave de cifrado que se guarda en un archivo "key.key", cifrando también la contraseña.
+- Guarda una contraseña encriptada en el archivo "password.pkl" para bloquear el proceso de cifrado y descifrado.
+- Permite abrir, guardar, crear un nuevo archivo y salir a través de un menú desplegable.
+- Implementa la biblioteca `os`, `filedialog`, `io`, `messagebox` y `simpledialog` para interactuar con los archivos y el usuario.
+- Incluye un menú para cambiar el tema de la ventana del bloc entre oscuro y claro.
+
+## Uso
+
+1. Ejecuta el script Python `bloc.py`.
+2. Utiliza las opciones del menú desplegable para abrir, guardar, crear un nuevo archivo o salir.
+3. Se te solicitará una contraseña al guardar una nota, esta contraseña se utilizará para encriptar la nota.
+4. También se te pedirá la misma contraseña al abrir un archivo encriptado para desbloquear el contenido.
+5. Para su demostración; se proporciona un archivo "prueba1.txt", el cual contiene un mensaje cifrado. Para descifrarlo, usar la contraseña: "12345".
+
+## Imágenes del programa
+![Captura de pantalla 2024-04-02 162440](https://github.com/yeeiisi/Bloc-de-notas-encriptado/assets/127243820/91b6479a-486b-4525-b520-51c00257fd88)
+![Captura de pantalla 2024-04-02 162615](https://github.com/yeeiisi/Bloc-de-notas-encriptado/assets/127243820/20b10b93-9102-415f-ad2b-8d65f90fde7f)
+![Captura de pantalla 2024-04-02 162624](https://github.com/yeeiisi/Bloc-de-notas-encriptado/assets/127243820/e04dac94-47c0-4469-b0ee-15c59a712ebb)
+![Captura de pantalla 2024-04-02 162639](https://github.com/yeeiisi/Bloc-de-notas-encriptado/assets/127243820/97e1c1da-b6b5-4012-bdf6-c9a3e8547c20)
+![Captura de pantalla 2024-04-02 162706](https://github.com/yeeiisi/Bloc-de-notas-encriptado/assets/127243820/51270132-d8b8-4b4d-a37b-314ca3151b2f)
+
+
+
+## Adicional
+- Ejecuta el archivo `descifrar.py`, para descifrar el contenido de la nota, sin necesidad de abrir el `bloc.py`.
+- Toma la clave de cifrado del archivo key.key para facilitar el proceso y solicitará la contraseña ingresada al guardar el archivo.
+
+## Requisitos
+
+- Python 3.x
+- Las bibliotecas `cryptography`, `tkinter` y otras mencionadas en el código deben estar instaladas.
+
+## Notas
+
+- Asegúrate de recordar la contraseña utilizada para encriptar los archivos, ya que no se puede recuperar si se olvida.
+- Mantén segura la clave de cifrado generada y el archivo "password.pkl" que contiene la contraseña encriptada.
+
+## Contribuciones
+
+Las contribuciones son bienvenidas. Siéntete libre de abrir un problema o enviar una solicitud de extracción para mejorar este proyecto.
 
