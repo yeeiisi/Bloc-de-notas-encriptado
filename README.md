@@ -6,8 +6,8 @@ Este es un simple bloc de notas en Python utilizando la biblioteca Tkinter. El b
 
 - Encripta las notas al guardarlas mediante una contraseña.
 - Utiliza la biblioteca `cryptography.fernet` y Fernet para el cifrado.
-- Genera una clave de cifrado que se guarda en un archivo "key.key", cifrando también la contraseña.
-- Guarda una contraseña encriptada en el archivo "password.pkl" para bloquear el proceso de cifrado y descifrado.
+- Genera una clave de cifrado que se guarda en un archivo `key.key`, cifrando también la contraseña.
+- Guarda una contraseña encriptada en el archivo `password.pkl` para bloquear el proceso de cifrado y descifrado.
 - Permite abrir, guardar, crear un nuevo archivo y salir a través de un menú desplegable.
 - Implementa la biblioteca `os`, `filedialog`, `io`, `messagebox` y `simpledialog` para interactuar con los archivos y el usuario.
 - Incluye un menú para cambiar el tema de la ventana del bloc entre oscuro y claro.
@@ -18,7 +18,7 @@ Este es un simple bloc de notas en Python utilizando la biblioteca Tkinter. El b
 2. Utiliza las opciones del menú desplegable para abrir, guardar, crear un nuevo archivo o salir.
 3. Se te solicitará una contraseña al guardar una nota, esta contraseña se utilizará para encriptar la nota.
 4. También se te pedirá la misma contraseña al abrir un archivo encriptado para desbloquear el contenido.
-5. Para su demostración; se proporciona un archivo "prueba1.txt", el cual contiene un mensaje cifrado. Para descifrarlo, usar la contraseña: "12345".
+5. Para su demostración; se proporciona un archivo `prueba1.txt`, el cual contiene un mensaje cifrado. Para descifrarlo, usar la contraseña: `12345`.
 
 ## Imágenes del programa
 ![Captura de pantalla 2024-04-02 162440](https://github.com/yeeiisi/Bloc-de-notas-encriptado/assets/127243820/91b6479a-486b-4525-b520-51c00257fd88)
@@ -41,7 +41,7 @@ Este es un simple bloc de notas en Python utilizando la biblioteca Tkinter. El b
 ## Notas
 
 - Asegúrate de recordar la contraseña utilizada para encriptar los archivos, ya que no se puede recuperar si se olvida.
-- Mantén segura la clave de cifrado generada y el archivo "password.pkl" que contiene la contraseña encriptada.
+- Mantén segura la clave de cifrado generada y el archivo `password.pkl` que contiene la contraseña encriptada.
 
 ## Contribuciones
 
