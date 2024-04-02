@@ -40,8 +40,9 @@ Este es un simple bloc de notas en Python utilizando la biblioteca Tkinter. El b
 
 ## Notas
 
-- Asegúrate de recordar la contraseña utilizada para encriptar los archivos, ya que no se puede recuperar si se olvida.
-- Mantén segura la clave de cifrado generada y el archivo `password.pkl` que contiene la contraseña encriptada.
+- `NO USAR COMO MÉTODO DE ENCRIPTACIÓN DE INFORMACIÓN IMPORTANTE O FRÁGIL` ya que tanto la contraseña introducida, como el mensaje se pueden descifrar con la contraseña generada
+  por Fernet, que está guardada en el archivo key.key.
+- `ESTO ES UN EJEMPLO DE ENCRIPTACIÓN, LA BRECHA DE SEGURIDAD SE DEBE MEJORAR`.
 
 ## Contribuciones
 
