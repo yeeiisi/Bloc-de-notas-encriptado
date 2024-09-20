@@ -31,7 +31,6 @@ Este es un simple bloc de notas en Python utilizando la biblioteca Tkinter. El b
 
 ## Adicional
 - Ejecuta el archivo `descifrar.py`, para descifrar el contenido de la nota, sin necesidad de abrir el `bloc.py` (o bien desde la terminal, usar "python3 descifrar.py nota.txt, solicitará la contraseña usada al guardarlo).
-- Toma la clave de cifrado del archivo key.key para facilitar el proceso y solicitará la contraseña ingresada al guardar el archivo.
 
 ## Requisitos
 
